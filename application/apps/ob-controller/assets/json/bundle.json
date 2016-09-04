@@ -1,0 +1,15 @@
+{
+  "applications": [
+    {
+      "type": "sandbox",
+      "id": "ondobot",
+      "name": "Symfuny Chat Bot",
+      "blurb": "Configurable Chat Bot. Fun for the whole family. Ages 10 to 100.",
+      "publisher": "Symphony",
+      "url": "https://localhost:8081/ob-controller",
+      "domain": "localhost",
+      "visible": true,
+      "icon":"https://localhost:8081/ob-controller/assets/images/logo.png"
+    }
+  ]
+}

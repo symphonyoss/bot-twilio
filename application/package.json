@@ -1,0 +1,12 @@
+{
+  "name": "ondobot-applications",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "q": "^1.4.1",
+    "sapphire-express": "^1.0.1"
+  },
+  "scripts": {
+    "postinstall": "node ./bin/npm-apps"
+  }
+}

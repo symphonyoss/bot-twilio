@@ -1,0 +1,11 @@
+{
+  "name": "ondobot",
+  "version": "1.0.0",
+  "description": "This the ondobot chat bot project",
+  "scripts": {
+    "postinstall": "node ./bin/npm-all"
+  },
+  "dependencies": {
+    "q": "^1.4.1"
+  }
+}

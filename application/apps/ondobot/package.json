@@ -1,0 +1,16 @@
+{
+  "name": "ondobot-application",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@symphony/ondobot-models": "^1.0.0",
+    "archiver": "^1.0.1",
+    "chrono-node": "^1.2.4",
+    "feedme": "^0.3.2",
+    "mathjs": "^3.3.0",
+    "node-uuid": "^1.4.7",
+    "q": "^1.4.1",
+    "redis": "^2.6.2",
+    "suncalc": "^1.7.0"
+  }
+}
