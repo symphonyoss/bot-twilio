@@ -22,3 +22,4 @@ Then add the bot from the app store and go wild.
 
 Instructions on how to use the bot can be found in the application module under the help tab.
 
+If you want to use the NYTimes API, you'll need to get one from developer.nytimes.com & set it in the environment with the name: nytimesApiKey. 
