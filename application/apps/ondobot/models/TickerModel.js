@@ -54,11 +54,13 @@ module.exports = new Class({
 
 	getHeadlines : function()
 	{
+		var apiKey = process.env.nytimesApiKey;
+		
 		var options = {
-			params : {'api-key': '52eb4d28601e44528657e46ebede6809'},
+			params : {'apikey': apiKey},
 		}
 
-		return this.request('http://developer.nytimes.com/proxy/https/api.nytimes.com/svc/topstories/v2/home.json', 'GET', options)
+		return this.request('https://api.nytimes.com/svc/topstories/v2/home.json', 'GET', options)
 			.then(function(response)
 			{
 				return response;
