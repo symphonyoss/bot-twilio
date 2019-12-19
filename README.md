@@ -1,5 +1,7 @@
 # The Symfuny Chat Bot
 
+[![FINOS - Archived](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-archived.svg)](https://finosfoundation.atlassian.net/wiki/display/FINOS/Archived)
+
 To run this bot locally, there are three prerequisites:
 - Install node.js
 - Install redis
